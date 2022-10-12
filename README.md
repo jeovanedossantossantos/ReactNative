@@ -22,7 +22,21 @@
 
 ### Instalando o expo
 
-      npm install --global expo-cli
+    npm install --global expo-cli
+
+### Crinado o app
+    
+    expo init "nome do projeto" ou yarn create react-native-app "nome do arquivo"
+
+    - cd my-project
+    - yarn start # you can open iOS, Android, or web from here, or run them directly with the commands below.
+    - yarn android
+    - yarn ios # requires an iOS device or macOS for access to an iOS simulator
+    - yarn web
+    - expo start --tunnel # executa 
+
+
+
 
 
 

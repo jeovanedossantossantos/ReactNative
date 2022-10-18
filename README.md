@@ -34,6 +34,26 @@
     - yarn ios # requires an iOS device or macOS for access to an iOS simulator
     - yarn web
     - expo start --tunnel # executa 
+    
+
+# Criando o APK
+
+### Passo 1: Se não tiver instalado ainda instale
+
+      npx expo install expo-updates
+      
+### Passo 2: rode o seguinte comando
+
+      npx pod-install
+      
+### Passo 3: Execute o comando para buildar o projeto
+
+      expo build:android -t apk
+      expo build:ios -t apk
+      
+
+<a href="https://docs.expo.dev/bare/installing-updates/">Installing expo-updates</a>
+
 
 
 

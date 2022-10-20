@@ -92,7 +92,7 @@ Entre no seguinte site <a href="https://apetools.webprofusion.com/#/tools/imageg
     }
     
 
- # Bloquie de orientação da tela
+ # Bloqueio de orientação da tela
  
 Várias orientações de tela devem funcionar bem por padrão, a menos que você esteja usando a DimensionsAPI e não manipule alterações de orientação. Se você não quiser oferecer suporte a várias orientações de tela, poderá bloquear a orientação da tela para retrato ou paisagem.
 

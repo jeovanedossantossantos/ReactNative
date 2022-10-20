@@ -51,6 +51,11 @@
       expo build:android -t apk
       expo build:ios -t apk
       
+      ou
+      
+      npm install -g eas-cli
+      eas build -p android
+      
 
 <a href="https://docs.expo.dev/bare/installing-updates/">Installing expo-updates</a>
 

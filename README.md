@@ -96,7 +96,16 @@ Entre no seguinte site <a href="https://apetools.webprofusion.com/#/tools/imageg
  
 Várias orientações de tela devem funcionar bem por padrão, a menos que você esteja usando a DimensionsAPI e não manipule alterações de orientação. Se você não quiser oferecer suporte a várias orientações de tela, poderá bloquear a orientação da tela para retrato ou paisagem.
 
-No iOS, na guia Geral e na seção Informações de implantação do Xcode, habilite a Orientação do dispositivo que você deseja oferecer suporte (certifique-se de ter selecionado o iPhone no menu Dispositivos ao fazer as alterações). Para Android, abra o arquivo AndroidManifest.xml e, dentro do elemento activity, adicione 'android:screenOrientation="portrait"'para travar em retrato ou 'android:screenOrientation="landscape"'para travar em paisagem.
+No iOS, na guia Geral e na seção Informações de implantação do Xcode, habilite a Orientação do dispositivo que você deseja oferecer suporte (certifique-se de ter selecionado o iPhone no menu Dispositivos ao fazer as alterações). Para Android, abra o arquivo AndroidManifest.xml e, dentro do elemento activity, adicione 
+
+      'android:screenOrientation="portrait"'
+
+
+para travar em retrato ou 
+
+      'android:screenOrientation="landscape"'     
+
+para travar em paisagem.
 
 
 

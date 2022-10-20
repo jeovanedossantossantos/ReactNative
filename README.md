@@ -56,6 +56,42 @@
 
 
 
+# Configurando o app.json
+
+### Passo 1: Gerando o icone e o icone de splashscreen
+
+Entre no seguinte site <a href="https://apetools.webprofusion.com/#/tools/imagegorilla">Ape Tools</a> para gerar ambos.
+
+<a href="https://www.youtube.com/watch?v=3Gf9yb53bJM">Tutotial</a>
+
+# Passo 2: app.json
+
+      {
+      "expo": {
+        "name": "Campo Minado",
+        "slug": "Campo Minado",
+        "icon": "./icone/calculadora.png",
+        "version": "1.0.0",
+        "platforms": [
+          "ios",
+          "android"
+        ],
+        "splash": {
+          "resizeMode": "contain"
+        },
+        "android": {
+          "package": "com.jeovane.campo_minado",
+          "versionCode": 1
+        }
+      }
+    }
+    
+
+ # Bloquie de orientação da tela
+ 
+Várias orientações de tela devem funcionar bem por padrão, a menos que você esteja usando a DimensionsAPI e não manipule alterações de orientação. Se você não quiser oferecer suporte a várias orientações de tela, poderá bloquear a orientação da tela para retrato ou paisagem.
+
+No iOS, na guia Geral e na seção Informações de implantação do Xcode, habilite a Orientação do dispositivo que você deseja oferecer suporte (certifique-se de ter selecionado o iPhone no menu Dispositivos ao fazer as alterações). Para Android, abra o arquivo AndroidManifest.xml e, dentro do elemento activity, adicione 'android:screenOrientation="portrait"'para travar em retrato ou 'android:screenOrientation="landscape"'para travar em paisagem.
 
 
 

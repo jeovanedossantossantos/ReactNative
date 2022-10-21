@@ -107,6 +107,11 @@ para travar em retrato ou
 
 para travar em paisagem.
 
+<a href="https://dev.to/jhonywalkeer/expo-adicionando-uma-tela-inicial-e-icones-59dc">Expo - Adicionando uma tela inicial e ícones</a>
+
+<a href="https://medium.com/reactbrasil/adicionando-uma-splash-screen-no-react-native-29262db674f8">Adicionando uma splash screen no React Native</a>
+
+<a href='https://docs.expo.dev/guides/splash-screens/'>Create a Splash Screen</a>
 
 
 

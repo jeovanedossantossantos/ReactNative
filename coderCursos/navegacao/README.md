@@ -54,3 +54,31 @@ Se você tiver um projeto gerenciado pelo Expo, em seu diretório de projetos, e
 
         
         npx expo install react-native-gesture-handler react-native-reanimated
+        
+# Solução de erros:
+
+![image](https://user-images.githubusercontent.com/60934938/197361622-8a95f305-6f09-49d6-b362-8bff18f0a2d6.png)
+
+Seguir as prientações a seguir.
+
+### Passo 1: abra o babel.config.js que deve está na raiz do projeto e modifique para:
+
+obs: se no presets e no plugins tiver outros não exclua apenas adicione
+
+                module.exports = function (api) {
+                  api.cache(true);
+                  return {
+                    presets: [
+                      'babel-preset-expo',
+                      'module:metro-react-native-babel-preset'
+                    ],
+                    plugins: [
+                      'react-native-reanimated/plugin',
+                    ]
+                  };
+                };
+                
+### Passo 2: restarte a sua aplicação.
+
+
+

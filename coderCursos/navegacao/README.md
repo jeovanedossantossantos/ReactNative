@@ -86,3 +86,15 @@ Para mais informações sobre o erro <a href="https://stackoverflow.com/question
 # Icones
 
 <a href="https://github.com/oblador/react-native-vector-icons">Icones</a>
+
+# React Native Elements
+
+<a href="https://reactnativeelements.com/">Docs</a>
+
+## Instalação 
+
+<a href="https://reactnativeelements.com/docs/installation">Tutorial</a>
+
+         yarn add react-native-elements
+         
+         yarn add react-native-vector-icons

@@ -36,7 +36,7 @@ As bibliotecas que instalamos até agora são os blocos de construção e as bas
         
 # Tab navigation
 
-    Possivelmente, o estilo de navegação mais comum em aplicativos móveis é a navegação baseada em guias. Isso pode ser guias na parte inferior da tela ou na parte superior abaixo do cabeçalho (ou mesmo em vez de um cabeçalho).
+Possivelmente, o estilo de navegação mais comum em aplicativos móveis é a navegação baseada em guias. Isso pode ser guias na parte inferior da tela ou na parte superior abaixo do cabeçalho (ou mesmo em vez de um cabeçalho).
 
         yarn add @react-navigation/bottom-tabs
 

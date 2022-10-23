@@ -83,3 +83,6 @@ obs: se no presets e no plugins tiver outros não exclua apenas adicione
 Para mais informações sobre o erro <a href="https://stackoverflow.com/questions/72927722/export-namespace-should-be-first-transformed-by-babel-plugin-proposal-export-n">clique aqui</a>
 
 
+# Icones
+
+<a href="https://github.com/oblador/react-native-vector-icons">Icones</a>

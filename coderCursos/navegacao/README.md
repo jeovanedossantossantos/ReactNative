@@ -27,10 +27,18 @@ O que segue na seção Fundamentos desta documentação é um tour pelos aspecto
 ### Obs:. Caso for usar um mac ou roda algo no ios instale o seguinte pacote
 
         npx pod-install ios
+        
+# Stack navigator
 
+As bibliotecas que instalamos até agora são os blocos de construção e as bases compartilhadas para navegadores, e cada navegador no React Navigation vive em sua própria biblioteca. Para usar o navegador de pilha nativo, precisamos instalar @react-navigation/native-stack:
+
+        yarn add @react-navigation/native-stack
+        
+<a href="https://reactnavigation.org/docs/hello-react-navigation/">Native Stack</a>
+        
 # Tab navigation
 
-    Possivelmente, o estilo de navegação mais comum em aplicativos móveis é a navegação baseada em guias. Isso pode ser guias na parte inferior da tela ou na parte superior abaixo do cabeçalho (ou mesmo em vez de um cabeçalho).
+Possivelmente, o estilo de navegação mais comum em aplicativos móveis é a navegação baseada em guias. Isso pode ser guias na parte inferior da tela ou na parte superior abaixo do cabeçalho (ou mesmo em vez de um cabeçalho).
 
         yarn add @react-navigation/bottom-tabs
 
@@ -86,3 +94,15 @@ Para mais informações sobre o erro <a href="https://stackoverflow.com/question
 # Icones
 
 <a href="https://github.com/oblador/react-native-vector-icons">Icones</a>
+
+# React Native Elements
+
+<a href="https://reactnativeelements.com/">Docs</a>
+
+## Instalação 
+
+<a href="https://reactnativeelements.com/docs/installation">Tutorial</a>
+
+         yarn add react-native-elements
+         
+         yarn add react-native-vector-icons

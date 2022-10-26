@@ -119,7 +119,7 @@ para travar em paisagem.
 
 ### Configurações
 
-Criar o tsconfig.json e colocar essas linhas nele:
+Criar o tsconfig.json e coloque essas linhas nele:
 
 
         {

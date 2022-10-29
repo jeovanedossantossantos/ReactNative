@@ -107,6 +107,36 @@ para travar em retrato ou
 
 para travar em paisagem.
 
+Uma outra alternativa é seguir a documentação do expo e seguir os passo a seguir.
+
+### Passo 1
+
+No termina do seu projeto execute.
+
+        npx expo install expo-screen-orientation
+        
+### Passo 2
+
+Agora no index.js ou index.tsx importe.
+
+      import * as ScreenOrientation from 'expo-screen-orientation';
+
+Adicione a seguinte função.
+
+      async function changeScreenOrientation() {
+          await ScreenOrientation.lockAsync(ScreenOrientation.OrientationLock.PORTRAIT);
+      }
+      
+      
+E chame ela antes do regiterRootComponent(App).
+
+      changeScreenOrientation()
+      
+      
+<a href="https://docs.expo.dev/versions/latest/sdk/screen-orientation/">Docs - expo ScreenOrientation</a>
+
+
+
 <a href="https://dev.to/jhonywalkeer/expo-adicionando-uma-tela-inicial-e-icones-59dc">Expo - Adicionando uma tela inicial e ícones</a>
 
 <a href="https://medium.com/reactbrasil/adicionando-uma-splash-screen-no-react-native-29262db674f8">Adicionando uma splash screen no React Native</a>

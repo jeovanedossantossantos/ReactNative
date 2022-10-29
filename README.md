@@ -107,7 +107,7 @@ para travar em retrato ou
 
 para travar em paisagem.
 
-Uma outra alternativa é seguir a documentação do expo e seguir os passo a seguir.
+Uma outra alternativa é seguir a documentação do expo.
 
 ### Passo 1
 

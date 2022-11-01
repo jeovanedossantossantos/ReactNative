@@ -235,3 +235,18 @@ Aparentemente, usar a CLI de instalação do expo instalará a versão mais rece
 Nesse link tem varias alternativas <a href="https://stackoverflow.com/questions/57428224/react-native-gesture-handler-swipeable-is-not-working-on-android">link</a>
 
 Para mim o que deeu certo foi envolver o Swipeable em um GestureHandlerRootView.
+
+# AsyncStorage
+
+Pecistencia dos dados.
+
+Instale o seguinte modulo, pois a versão do react-native está depreciada e do Obs: react-native-community/async-storage está descomtinuado.
+
+            yarn add @react-native-async-storage/async-storage
+            npx expo install @react-native-async-storage/async-storage - só se estiver usando o expo
+            
+     
+            
+<a href="https://www.npmjs.com/package/@react-native-async-storage/async-storage">Mais informações</a>
+
+

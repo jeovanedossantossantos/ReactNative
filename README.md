@@ -230,7 +230,7 @@ Aparentemente, usar a CLI de instalação do expo instalará a versão mais rece
 <a href="https://stackoverflow.com/questions/59830102/error-while-updating-property-fill-of-a-view-managed-by-rnsvgreact">Fonte - stackoverflow</a>
 
 
-# Casso Swipeable não funcione
+# Caso Swipeable não funcione
 
 Nesse link tem varias alternativas <a href="https://stackoverflow.com/questions/57428224/react-native-gesture-handler-swipeable-is-not-working-on-android">link</a>
 

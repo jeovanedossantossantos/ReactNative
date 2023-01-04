@@ -229,6 +229,16 @@ Aparentemente, usar a CLI de instalação do expo instalará a versão mais rece
 
 <a href="https://stackoverflow.com/questions/59830102/error-while-updating-property-fill-of-a-view-managed-by-rnsvgreact">Fonte - stackoverflow</a>
 
+### Obs: Caso aconteça o seguinte erro:
+
+    Invariant Violation: requireNativeComponent: "RNSVGSvgViewAndroid" was not found in the UIManager.
+    
+Instale a seguinte verção do react-native-svg
+
+    "react-native-svg": "13.4.0"
+
+<a href="https://stackoverflow.com/questions/59830102/error-while-updating-property-fill-of-a-view-managed-by-rnsvgreact">Fonte</a>
+   
 
 # Caso Swipeable não funcione
 

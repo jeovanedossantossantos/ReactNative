@@ -259,4 +259,8 @@ Instale o seguinte modulo, pois a versão do react-native está depreciada e do 
             
 <a href="https://www.npmjs.com/package/@react-native-async-storage/async-storage">Mais informações</a>
 
+# react-native-pape
 
+- <a href="https://callstack.github.io/react-native-paper/index.html">Docs</a>
+- <a href="https://www.youtube.com/watch?v=GfmrZjyabXo">Video</a>
+- <a href="https://github.com/silviosampaio/money-runners-app">Repositorio</a>

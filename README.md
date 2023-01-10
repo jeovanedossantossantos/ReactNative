@@ -264,3 +264,35 @@ Instale o seguinte modulo, pois a versão do react-native está depreciada e do 
 - <a href="https://callstack.github.io/react-native-paper/index.html">Docs</a>
 - <a href="https://www.youtube.com/watch?v=GfmrZjyabXo">Video</a>
 - <a href="https://github.com/silviosampaio/money-runners-app">Repositorio</a>
+
+# Ocultar cabeçalho no navegador de pilha Navegação React
+
+Para todas as telas 
+
+```
+<Stack.Navigator
+  screenOptions={{
+    headerShown: false
+  }}
+>
+  <Stack.Screen name="route-name" component={ScreenComponent} />
+ 
+</Stack.Navigator>
+
+```
+
+Se você deseja apenas ocultar o cabeçalho em 1 tela, pode fazer isso definindo screenOptions no componente de tela, veja abaixo, por exemplo:
+
+```
+<Stack.Navigator
+  screenOptions={{
+    headerShown: false
+  }}
+>
+  <Stack.Screen name="route-name" component={ScreenComponent} />
+  <Stack.Screen options={{headerShown: false}} name="route-name" component={ScreenComponent} />
+</Stack.Navigator>
+
+```
+
+<a href="https://stackoverflow.com/questions/44701245/hide-header-in-stack-navigator-react-navigation">Mais informações</a>

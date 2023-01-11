@@ -300,8 +300,8 @@ Se você deseja apenas ocultar o cabeçalho em 1 tela, pode fazer isso definindo
 
 # React Native LightBox 
 
-<a href="https://www.youtube.com/watch?v=iftjFSjspuk">Vídeo</a>
-<a href="https://www.npmjs.com/package/react-native-lightbox-v2">npm - react-native-lightbox-v2
+- <a href="https://www.youtube.com/watch?v=iftjFSjspuk">Vídeo</a>
+- <a href="https://www.npmjs.com/package/react-native-lightbox-v2">npm - react-native-lightbox-v2
 </a>
 
 ```

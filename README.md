@@ -296,3 +296,25 @@ Se você deseja apenas ocultar o cabeçalho em 1 tela, pode fazer isso definindo
 ```
 
 <a href="https://stackoverflow.com/questions/44701245/hide-header-in-stack-navigator-react-navigation">Mais informações</a>
+
+
+# React Native LightBox 
+
+<a href="https://www.youtube.com/watch?v=iftjFSjspuk">Vídeo</a>
+<a href="https://www.npmjs.com/package/react-native-lightbox-v2">npm - react-native-lightbox-v2
+</a>
+
+```
+
+<View style={styles.container}>
+        <Lightbox>
+          <Image
+            style={{ height: 300, width: 300 }}
+            source={{
+              uri: 'http://knittingisawesome.com/wp-content/uploads/2012/12/cat-wearing-a-reindeer-hat1.jpg',
+            }}
+          />
+        </Lightbox>
+      </View>
+
+```

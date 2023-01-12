@@ -318,3 +318,4 @@ Se você deseja apenas ocultar o cabeçalho em 1 tela, pode fazer isso definindo
       </View>
 
 ```
+- <a href='https://www.crowdbotics.com/blog/how-to-create-a-custom-gallery-view-in-react-native'>Carrosel</a>

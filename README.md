@@ -346,4 +346,5 @@ Invariant Violation: ViewPropTypes has been removed from React Native. Migrate t
   },
 
 ```
+- apos execute npx patch-package react-native
 <a href="https://stackoverflow.com/questions/71702392/viewproptypes-will-be-removed-from-react-native-migrate-to-viewproptypes-export>Mais informações</a>

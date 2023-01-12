@@ -319,3 +319,31 @@ Se você deseja apenas ocultar o cabeçalho em 1 tela, pode fazer isso definindo
 
 ```
 - <a href='https://www.crowdbotics.com/blog/how-to-create-a-custom-gallery-view-in-react-native'>Carrosel</a>
+
+# Obs: Caso aconteça esse erro
+
+```
+Invariant Violation: ViewPropTypes has been removed from React Native. Migrate to ViewPropTypes exported from 'deprecated-react-native-prop-types'.
+
+```
+- npm install deprecated-react-native-prop-types
+- em  node_modules/react-native/index.js substitua da linha 436 até 464
+
+```
+// Deprecated Prop Types
+  get ColorPropType(): $FlowFixMe {
+
+    return require('deprecated-react-native-prop-types').ColorPropType
+  },
+  get EdgeInsetsPropType(): $FlowFixMe {
+    return require('deprecated-react-native-prop-types').EdgeInsetsPropType
+  },
+  get PointPropType(): $FlowFixMe {
+    return require('deprecated-react-native-prop-types').PointPropType
+  },
+  get ViewPropTypes(): $FlowFixMe {
+    return require('deprecated-react-native-prop-types').ViewPropTypes
+  },
+
+```
+<a href="https://stackoverflow.com/questions/71702392/viewproptypes-will-be-removed-from-react-native-migrate-to-viewproptypes-export>Mais informações</a>

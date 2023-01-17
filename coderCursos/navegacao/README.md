@@ -106,3 +106,27 @@ Para mais informações sobre o erro <a href="https://stackoverflow.com/question
          yarn add react-native-elements
          
          yarn add react-native-vector-icons
+
+# Sumindo o tabBar em paginas expecificas
+
+para fazer a inda
+
+```
+useEffect(() => {
+
+    navigation.getParent()?.setOptions({ tabBarStyle: { display: "none" } })
+
+
+
+  }, [])
+
+```
+
+
+para fazer a volta
+```
+<ButtonPaper onPress={() => {
+        navigation.getParent()?.setOptions({ tabBarStyle: { display: "flex" } })
+        navigation.goBack()
+      }}>Go back</ButtonPaper>
+```

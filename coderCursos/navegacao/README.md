@@ -130,3 +130,5 @@ para fazer a volta
         navigation.goBack()
       }}>Go back</ButtonPaper>
 ```
+- <a href="https://www.youtube.com/watch?v=C5uyOikuOeg">Video explicando</a>
+- <a herf="https://www.youtube.com/watch?v=2Rno7uX0MlU">Como fazer uma tabBar personalizada</a>

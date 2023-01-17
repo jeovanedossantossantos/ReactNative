@@ -349,3 +349,18 @@ Invariant Violation: ViewPropTypes has been removed from React Native. Migrate t
 - apos execute npx patch-package react-native
 
 <a href="https://stackoverflow.com/questions/71702392/viewproptypes-will-be-removed-from-react-native-migrate-to-viewproptypes-export">Mais informações</a>
+
+# Como Criar um Hyperlink no React Native
+
+```
+<Text 
+    style={styles.hyperlinkStyle} 
+    onPress={() => { 
+      Linking.openURL('https://reactnative.dev'); 
+    }}> 
+    Site Oficial do React Native 
+  </Text>
+
+```
+
+<a href="https://developerplus.com.br/como-criar-um-hyperlink-no-react-native/#:~:text=Como%20Usar%20o%20Componente%20Linking,ser%C3%A1%20aberto%20no%20navegador%20padr%C3%A3o.">Mais informações</a>

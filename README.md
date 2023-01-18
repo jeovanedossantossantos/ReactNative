@@ -364,3 +364,96 @@ Invariant Violation: ViewPropTypes has been removed from React Native. Migrate t
 ```
 
 <a href="https://developerplus.com.br/como-criar-um-hyperlink-no-react-native/#:~:text=Como%20Usar%20o%20Componente%20Linking,ser%C3%A1%20aberto%20no%20navegador%20padr%C3%A3o.">Mais informações</a>
+
+
+# Carrosel feito na mão
+
+```
+const { width } = Dimensions.get('window');
+const SPACING = 10;
+const THUMB_SIZE = 70;
+const [indexSelected, setIndexSelected] = useState(0);
+
+    const onSelect = (indexSelected: number) => {
+        setIndexSelected(indexSelected);
+        
+    };
+const onScrollEnd = (e: { nativeEvent: { contentOffset: any; layoutMeasurement: any; }; }) => {
+        const contentOffset = e.nativeEvent.contentOffset;
+        const viewSize = e.nativeEvent.layoutMeasurement;
+
+        // Divide the horizontal offset by the width of the view to see which page is visible
+        const pageNum = Math.floor(contentOffset.x / viewSize.width);
+        onSelect(pageNum)
+
+    }
+
+    return (
+        <>
+            <FlatList
+
+                horizontal
+                data={images}
+                pagingEnabled
+                style={{ marginLeft: -10, }}
+                showsHorizontalScrollIndicator={false}
+                contentContainerStyle={{
+                    paddingHorizontal: SPACING
+                }}
+                keyExtractor={(item) => item.data}
+                onMomentumScrollEnd={onScrollEnd}
+                // 
+                renderItem={({ item}) => (
+
+
+                    <Image
+
+                        style={{
+                            width: width + 8,
+
+                            height: width,
+
+                        }}
+                        source={{ uri: item.data }}
+                    />
+
+                )
+                }
+
+            />
+            <View
+                style={{
+                    marginTop: 25,
+                    paddingHorizontal: 32,
+                    alignSelf: 'flex-end',
+                    position: "absolute",
+                    // position: "relative",
+                    borderRadius: 10,
+
+                    justifyContent: "center",
+                    alignItems: "center"
+
+                }}
+            >
+                <Text
+                    style={{
+                        color: '#fff',
+                        fontSize: 18,
+                        backgroundColor: "#cccccc2b",
+                        
+                        marginTop: 105,
+                        width: 60,
+                        textAlign: "center",
+                        borderRadius: 10,
+
+
+                    }}
+                >
+                    {indexSelected + 1}/{images.length}
+                </Text>
+            </View>
+
+        </>
+        )
+
+```

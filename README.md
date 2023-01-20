@@ -457,3 +457,10 @@ const onScrollEnd = (e: { nativeEvent: { contentOffset: any; layoutMeasurement: 
         )
 
 ```
+
+# Animated
+
+- <a href="https://stackoverflow.com/questions/41932345/get-current-value-of-animated-value-react-native">Ajuda</a>
+- <a href="https://reactnative.dev/docs/animatedvalue">Docs</a>
+- <a href="https://snack.expo.dev/@ubahthebuilder/b179dc?platform=android">Exemplo em funcionamento</a>
+- <a href="https://www.youtube.com/watch?v=YC17-JnrYQE">Video</a>

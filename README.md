@@ -464,3 +464,16 @@ const onScrollEnd = (e: { nativeEvent: { contentOffset: any; layoutMeasurement: 
 - <a href="https://reactnative.dev/docs/animatedvalue">Docs</a>
 - <a href="https://snack.expo.dev/@ubahthebuilder/b179dc?platform=android">Exemplo em funcionamento</a>
 - <a href="https://www.youtube.com/watch?v=YC17-JnrYQE">Video</a>
+
+# OBS: O esso de uso do FlatList
+
+Ao usar o FlatList dentro de uma componente ScrollView pode acarretar o seguinte erro:
+
+```
+
+ ERROR  VirtualizedLists should never be nested inside plain ScrollViews with the same orientation because it can break windowing and other functionality - use another VirtualizedList-backed container instead.    
+ 
+```
+
+Caso isso aconteça a melhor aternativa possa ser o uso do map em vez do FlatList.
+Esse erro ocorre pois o FlatList possui um ScrollViews na sua composição e o React Native não aceita muito  bem isso.

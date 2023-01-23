@@ -465,13 +465,14 @@ const onScrollEnd = (e: { nativeEvent: { contentOffset: any; layoutMeasurement: 
 - <a href="https://snack.expo.dev/@ubahthebuilder/b179dc?platform=android">Exemplo em funcionamento</a>
 - <a href="https://www.youtube.com/watch?v=YC17-JnrYQE">Video</a>
 
-# OBS: O esso de uso do FlatList
+# OBS: O ecesso de uso do FlatList
 
 Ao usar o FlatList dentro de uma componente ScrollView pode acarretar o seguinte erro:
 
 ```
 
- ERROR  VirtualizedLists should never be nested inside plain ScrollViews with the same orientation because it can break windowing and other functionality - use another VirtualizedList-backed container instead.    
+ ERROR  VirtualizedLists should never be nested inside plain ScrollViews with the same orientation 
+ because it can break windowing and other functionality - use another VirtualizedList-backed container instead.    
  
 ```
 

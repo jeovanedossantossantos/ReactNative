@@ -481,7 +481,9 @@ Esse erro ocorre pois o FlatList possui um ScrollViews na sua composição e o R
 
 # Login pelo google
 
-- <a href="https://www.youtube.com/watch?v=QT0PXhH9uTg>Vídeo 1</a>
+
+- <a href="https://docs.expo.dev/guides/authentication/#google">Documentação</a>
+- <a href="https://www.youtube.com/watch?v=QT0PXhH9uTg">Vídeo 1</a>
 - <a href="https://github.com/chelseafarley/google-auth-demo">Repositorio 1</a>
 - <a href="https://www.youtube.com/watch?v=YX7IWOQIKA0">Vídeo 2</a>
 - <a href="https://github.com/JeremyPersing/apartmentsclone">Repositorio 2</a>

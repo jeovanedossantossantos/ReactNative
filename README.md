@@ -478,3 +478,11 @@ Ao usar o FlatList dentro de uma componente ScrollView pode acarretar o seguinte
 
 Caso isso aconteça a melhor aternativa possa ser o uso do map em vez do FlatList.
 Esse erro ocorre pois o FlatList possui um ScrollViews na sua composição e o React Native não aceita muito  bem isso.
+
+# Login pelo google
+
+- <a href="https://www.youtube.com/watch?v=QT0PXhH9uTg>Vídeo 1</a>
+- <a href="https://github.com/chelseafarley/google-auth-demo">Repositorio 1</a>
+- <a href="https://www.youtube.com/watch?v=YX7IWOQIKA0">Vídeo 2</a>
+- <a href="https://github.com/JeremyPersing/apartmentsclone">Repositorio 2</a>
+- <a href="https://github.com/Mateus-code-98/jogoDaVelhaMobile/blob/master/src/pages/SignIn/index.tsx">Code</a>

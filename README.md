@@ -498,6 +498,7 @@ Esse erro ocorre pois o FlatList possui um ScrollViews na sua composição e o R
     - expoClientId: ID do cliente proxy para uso na Expo Go em iOS e Android.
     - iosClientId: ID do cliente nativo do iOS para uso em fluxo de trabalho autônomo e básico.
     - androidClientId: ID do cliente nativo do Android para uso em fluxo de trabalho simples e autônomo.
+    - webClientId: Expo web client ID para uso no navegador.
     
     
 - expoClientId: na pagina de credenciais crie um projeto depois celecione o seu perojeto e click em credenciais, assim no tompo selecione criar credenciais e click em OAuth client ID, apos isso você precisa configura a tela de consentimento. Apos isso resolvido, selecione em Application type a opção Web application.

@@ -488,3 +488,24 @@ Esse erro ocorre pois o FlatList possui um ScrollViews na sua composição e o R
 - <a href="https://www.youtube.com/watch?v=YX7IWOQIKA0">Vídeo 2</a>
 - <a href="https://github.com/JeremyPersing/apartmentsclone">Repositorio 2</a>
 - <a href="https://github.com/Mateus-code-98/jogoDaVelhaMobile/blob/master/src/pages/SignIn/index.tsx">Code</a>
+
+## Passos 
+
+- Instale o ```npx expo install expo-application```
+- Depois entre no link das <a href="https://console.developers.google.com/apis/credentials">credenciais</a>
+- Existem 4 tipos diferentes de IDs de cliente que você pode fornecer:
+
+    - expoClientId: ID do cliente proxy para uso na Expo Go em iOS e Android.
+    - iosClientId: ID do cliente nativo do iOS para uso em fluxo de trabalho autônomo e básico.
+    - androidClientId: ID do cliente nativo do Android para uso em fluxo de trabalho simples e autônomo.
+    
+    
+- expoClientId: na pagina de credenciais crie um projeto depois celecione o seu perojeto e click em credenciais, assim no tompo selecione criar credenciais e click em OAuth client ID, apos isso você precisa configura a tela de consentimento. Apos isso resolvido, selecione em Application type a opção Web application.
+
+    - No campo name coloque Expo Go Proxy
+    - URIs (origens JavaScript autorizadas): https://auth.expo.io
+    - URIs de redirecionamento autorizados : https://auth.expo.io/@your-username/your-project-slug
+    
+- iosClientId: faça o mesmo processo do expoClientId só que em Application type selecione IOS em name coloque o nome que form mais conveniente e no campo Bundle ID coloque ```host.exp.exponent```.
+
+- androidClientId:faça o mesmo processo do expoClientId só que em Application type selecione Android em name coloque o nome que form mais conveniente e no campo Package name coloque o id gerado do iosClientId. Agora no terminal do projeto diite ```openssl rand -base64 32 | openssl sha1 -c``` isso ira gera um código, copio e coloque no campo SHA-1 certificate ...

@@ -510,3 +510,7 @@ Esse erro ocorre pois o FlatList possui um ScrollViews na sua composição e o R
 - iosClientId: faça o mesmo processo do expoClientId só que em Application type selecione IOS em name coloque o nome que form mais conveniente e no campo Bundle ID coloque ```host.exp.exponent```.
 
 - androidClientId:faça o mesmo processo do expoClientId só que em Application type selecione Android em name coloque o nome que form mais conveniente e no campo Package name coloque o id gerado do iosClientId. Agora no terminal do projeto diite ```openssl rand -base64 32 | openssl sha1 -c``` isso ira gera um código, copio e coloque no campo SHA-1 certificate ...
+
+# Facebook
+
+- <a href="https://www.youtube.com/watch?v=m9mfrUA2DIk">Vídeo 1</a>

@@ -507,7 +507,7 @@ Esse erro ocorre pois o FlatList possui um ScrollViews na sua composição e o R
     - URIs (origens JavaScript autorizadas): https://auth.expo.io
     - URIs de redirecionamento autorizados : https://auth.expo.io/@your-username/your-project-slug
     
-- iosClientId: faça o mesmo processo do expoClientId só que em Application type selecione IOS em name coloque o nome que form mais conveniente e no campo Bundle ID coloque ```host.exp.exponent```.
+- iosClientId: faça o mesmo processo do expoClientId só que em Application type selecione IOS em name coloque o nome que form mais conveniente e no campo Bundle ID coloque ex: ```host.exp.exponent```.
 
 - androidClientId:faça o mesmo processo do expoClientId só que em Application type selecione Android em name coloque o nome que form mais conveniente e no campo Package name coloque o id gerado do iosClientId. Agora no terminal do projeto diite ```openssl rand -base64 32 | openssl sha1 -c``` isso ira gera um código, copio e coloque no campo SHA-1 certificate ...
 

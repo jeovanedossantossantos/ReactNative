@@ -513,4 +513,21 @@ Esse erro ocorre pois o FlatList possui um ScrollViews na sua composição e o R
 
 # Facebook
 
-- <a href="https://www.youtube.com/watch?v=m9mfrUA2DIk">Vídeo 1</a>
+  
+- <a href="https://developers.facebook.com/docs/graph-api/overview?locale=pt_BR">Docs api facebbok</a>
+- <a href="https://www.youtube.com/watch?v=R3iLeGCjdTY">Video 1</a>
+- <a href="https://www.youtube.com/watch?v=m9mfrUA2DIk">Vídeo 2</a>
+
+## Chamada na api | GET
+
+```https://graph.facebook.com/me?fields=id,email&access_token=${accessToken}```
+
+## Resposta da api
+
+```
+{
+  "email": "funlano@email.com",
+  "id": "id",
+}
+```
+

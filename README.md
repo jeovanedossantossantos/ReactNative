@@ -536,5 +536,5 @@ Esse erro ocorre pois o FlatList possui um ScrollViews na sua composição e o R
 <img width=400 src="https://user-images.githubusercontent.com/60934938/216689649-b6bf09e3-2053-479f-b567-f554662d0909.png"/>
 
 
-- <a herf="https://ethercreative.github.io/react-native-shadow-generator/">Opção 2</a>
+- <a href="https://ethercreative.github.io/react-native-shadow-generator/">Opção 2</a>
 <img width=400 src="https://user-images.githubusercontent.com/60934938/216689848-ac57bf29-fae8-499b-989c-d72809934d78.png"/>

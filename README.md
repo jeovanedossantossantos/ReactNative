@@ -458,6 +458,7 @@ const onScrollEnd = (e: { nativeEvent: { contentOffset: any; layoutMeasurement: 
 
 ```
 
+- <a href="https://www.crowdbotics.com/blog/how-to-create-a-custom-gallery-view-in-react-native">Mais informações</a>
 # Animated
 
 - <a href="https://stackoverflow.com/questions/41932345/get-current-value-of-animated-value-react-native">Ajuda</a>

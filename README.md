@@ -543,7 +543,7 @@ Esse erro ocorre pois o FlatList possui um ScrollViews na sua composição e o R
 # Importando imagens do assets
 
 - <a href="https://stackoverflow.com/questions/50334238/react-native-image-invalid-prop-source-supplied-to-image">Mais informações</a>
-
+```
 const images = {
   logo: {
     uri: require('your-image-path/logo.png')
@@ -567,6 +567,6 @@ imagesFromTheServer.map(image => {
     return <Text>Image not found</Text>;
   }
   return <Image source={images[image].uri} />; // if image = logo, it will return images[logo] containing the require path as `uri` key
-});```
+});
 
 ```

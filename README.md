@@ -539,3 +539,34 @@ Esse erro ocorre pois o FlatList possui um ScrollViews na sua composição e o R
 
 - <a href="https://ethercreative.github.io/react-native-shadow-generator/">Opção 2</a>
 <img width=400 src="https://user-images.githubusercontent.com/60934938/216689848-ac57bf29-fae8-499b-989c-d72809934d78.png"/>
+
+# Importando imagens do assets
+
+- <a href="https://stackoverflow.com/questions/50334238/react-native-image-invalid-prop-source-supplied-to-image">Mais informações</a>
+
+const images = {
+  logo: {
+    uri: require('your-image-path/logo.png')
+  },
+  banner: { 
+    uri: require('your-image-path/banner.png')
+  }
+}
+
+export { images }; 
+
+
+//YourComponent.js
+import { images } from 'yourImagesPath';
+
+// for this test, expected to return [ { name: logo }, { name: banner} ]
+const imagesFromTheServer = (your fetch);
+
+imagesFromTheServer.map(image => {
+  if (!images[image]) {
+    return <Text>Image not found</Text>;
+  }
+  return <Image source={images[image].uri} />; // if image = logo, it will return images[logo] containing the require path as `uri` key
+});```
+
+```

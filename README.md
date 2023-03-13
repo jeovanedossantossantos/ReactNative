@@ -601,3 +601,41 @@ const styles = StyleSheet.create({
 export default App;
 
 ```
+# Video no React Native
+
+- [x] <a href="https://www.youtube.com/watch?v=0GOUF8vNqzE">Vídeo</a>
+- [x] <a href="https://lonelycpp.github.io/react-native-youtube-iframe/">Docs</a>
+
+```
+import React, { useState, useCallback, useRef } from "react";
+import { Button, View, Alert } from "react-native";
+import YoutubePlayer from "react-native-youtube-iframe";
+
+export default function App() {
+  const [playing, setPlaying] = useState(false);
+
+  const onStateChange = useCallback((state) => {
+    if (state === "ended") {
+      setPlaying(false);
+      Alert.alert("video has finished playing!");
+    }
+  }, []);
+
+  const togglePlaying = useCallback(() => {
+    setPlaying((prev) => !prev);
+  }, []);
+
+  return (
+    <View>
+      <YoutubePlayer
+        height={300}
+        play={playing}
+        videoId={"iee2TATGMyI"}
+        onChangeState={onStateChange}
+      />
+      <Button title={playing ? "pause" : "play"} onPress={togglePlaying} />
+    </View>
+  );
+}
+
+```

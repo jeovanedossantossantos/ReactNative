@@ -639,3 +639,25 @@ export default function App() {
 }
 
 ```
+
+# Pegar o tamanho da tela 
+
+No proprio react native existe o  useWindowDimensions
+
+```
+import { useWindowDimensions } from "react-native";
+
+const { width } = useWindowDimensions();
+
+```
+
+Também do react native existe outra opção 
+
+```
+
+import { Dimensions } from "react-native";
+
+const { width } = Dimensions.get("window");
+
+```
+

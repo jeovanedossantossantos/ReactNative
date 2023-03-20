@@ -664,7 +664,42 @@ const { width } = Dimensions.get("window");
 # Trabalhando com arquivos SVG
 
 ## Passo 1
-Crie um pasta assets e coloque seu aruivo nela.
+Crie um pasta assets e coloque seu arquivo nela.E no arquivo metro.config.js cole o seguinte código.
+
+```
+// Learn more https://docs.expo.io/guides/customizing-metro
+const { getDefaultConfig } = require("expo/metro-config");
+
+module.exports = (async () => {
+  const {
+    resolver: { sourceExts, assetExts },
+  } = await getDefaultConfig(__dirname);
+
+  return {
+    transformer: {
+      babelTransformerPath: require.resolve("react-native-svg-transformer"),
+      getTransformOptions: async () => ({
+        transform: {
+          experimentalImportSupport: false,
+          inlineRequires: false,
+        },
+      }),
+    },
+    resolver: {
+      assetExts: assetExts.filter((ext) => ext !== "svg"),
+      sourceExts: [...sourceExts, "svg"],
+    },
+  };
+})();
+```
+
+Depois instale o seguinte pagete 
+
+
+```
+npm i react-native-svg-transformer
+
+```
 
 ## Passo 2
 Na raiz do projeto crie um arquivo .svgrrc e cole o seguinte codigo dendro

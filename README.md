@@ -661,3 +661,44 @@ const { width } = Dimensions.get("window");
 
 ```
 
+# Trabalhando com arquivos SVG
+
+## Passo 1
+Crie um pasta assets e coloque seu aruivo nela.
+
+## Passo 2
+Na raiz do projeto crie um arquivo .svgrrc e cole o seguinte codigo dendro
+
+```
+
+    "replaceAttrValues": {
+        "#000": "{props.fill}",
+        "#fff": "{props.stroke}"
+    }
+}
+
+```
+
+## Passo 3
+
+Tambem na raiz do projeto crie um arquivo custom.d.ts  e cole o seguinte código dentro 
+
+```
+declare module "*.svg" {
+  const content: React.FunctionComponent<React.SVGAttributes<SVGElement>>;
+  export default content;
+}
+```
+
+Depois importe onde deseja a imagem
+
+```
+import Svg1 from "caminho_da_imagem/nome.svg";
+
+<Svg1
+          width={25}
+          height={25}
+          stroke={"red"}
+        />
+
+```

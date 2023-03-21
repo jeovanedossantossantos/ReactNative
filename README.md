@@ -737,3 +737,6 @@ import Svg1 from "caminho_da_imagem/nome.svg";
         />
 
 ```
+# Dropdow
+
+<a href="https://fateh999.github.io/react-native-paper-dropdown/#/README?id=installation">react-native-paper-dropdown</a>

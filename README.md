@@ -744,3 +744,5 @@ import Svg1 from "caminho_da_imagem/nome.svg";
 <a href="https://medium.com/@kalebjdavenport/how-to-create-a-grid-layout-in-react-native-7948f1a6f949">FlexBox</a>
 
 <a href="https://blog.logrocket.com/using-flexbox-react-native/">Flexbox</a>
+
+<a href="https://uxdesign.cc/ui-cheat-sheet-dropdown-field-a30025c0f432">UX-DropDown</a>

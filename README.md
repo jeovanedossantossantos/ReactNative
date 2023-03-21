@@ -740,3 +740,7 @@ import Svg1 from "caminho_da_imagem/nome.svg";
 # Dropdow
 
 <a href="https://fateh999.github.io/react-native-paper-dropdown/#/README?id=installation">react-native-paper-dropdown</a>
+
+<a href="https://medium.com/@kalebjdavenport/how-to-create-a-grid-layout-in-react-native-7948f1a6f949">FlexBox</a>
+
+<a href="https://blog.logrocket.com/using-flexbox-react-native/">Flexbox</a>

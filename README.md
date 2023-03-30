@@ -746,3 +746,7 @@ import Svg1 from "caminho_da_imagem/nome.svg";
 <a href="https://blog.logrocket.com/using-flexbox-react-native/">Flexbox</a>
 
 <a href="https://uxdesign.cc/ui-cheat-sheet-dropdown-field-a30025c0f432">UX-DropDown</a>
+
+# How to mask Text and TextInput components in React Native and Expo
+
+<a href="https://www.npmjs.com/package/react-native-masked-text">react-native-masked-text</a>

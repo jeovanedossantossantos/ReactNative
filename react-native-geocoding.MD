@@ -36,7 +36,7 @@ Geocoder.init('SUA_CHAVE_API_DO_GOOGLE_MAPS');
 - Copie a chave gerada e utilize-a em seu aplicativo.
 
 ### Obs: cuidado com o limite de requisições grátis
-### Obs: para usar essa funcionalidade é preciso ativar o faturamento, segundo a pagina developers.google.com se for exedito a quantidade maxima para o uso grátis não será cobrado nada apenas a interrupção do acesso a api.
+### Obs: para usar essa funcionalidade é preciso ativar o faturamento, segundo a pagina developers.google.com se for exedito a quantidade máxima para o uso grátis não será cobrado nada apenas a interrupção do acesso a api.
 
 ### Código
 

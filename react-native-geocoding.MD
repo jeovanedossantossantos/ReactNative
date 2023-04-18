@@ -107,5 +107,4 @@ const styles = StyleSheet.create({
 ```
 
 ### Resultado
-
-![image](https://user-images.githubusercontent.com/60934938/232120282-750a84c5-5fdc-432a-b6cf-9daab599951a.png)
+![image](https://user-images.githubusercontent.com/60934938/232898387-f655861b-4b5f-47cb-b3c0-8326eaa09b4e.png)

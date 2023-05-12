@@ -750,3 +750,16 @@ import Svg1 from "caminho_da_imagem/nome.svg";
 # How to mask Text and TextInput components in React Native and Expo
 
 <a href="https://www.npmjs.com/package/react-native-masked-text">react-native-masked-text</a>
+
+
+# Trabalhando com camera
+
+- <a href="https://docs.expo.dev/versions/latest/sdk/camera/">Expo Camera</a>
+- <a href="https://github.com/chelseafarley/CameraAppTutorial/blob/main/App.js#L36">Github</a>
+- <a href="https://www.youtube.com/watch?v=4WPjWK0MYMI">Vídeo tutorial</a>
+
+# Upload de imagens
+
+- <a href="https://docs.expo.dev/tutorial/image-picker/">Expo upload one</a>
+- <a href="https://docs.expo.dev/versions/latest/sdk/imagepicker/">Expo upload two</a>
+

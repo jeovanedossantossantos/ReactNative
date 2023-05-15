@@ -763,3 +763,75 @@ import Svg1 from "caminho_da_imagem/nome.svg";
 - <a href="https://docs.expo.dev/tutorial/image-picker/">Expo upload one</a>
 - <a href="https://docs.expo.dev/versions/latest/sdk/imagepicker/">Expo upload two</a>
 
+# React Native Bottom Sheet
+
+- <a href="https://gorhom.github.io/react-native-bottom-sheet/">React Native Bottom Sheet</a>
+
+
+
+https://github.com/jeovanedossantossantos/ReactNative/assets/60934938/6efcd6ec-b836-45a0-8150-9bf208cf4331
+
+- Passo 1: instale o pacote react-native-gesture-handler e o importe no aruivo App e envolva com o GestureHandlerRootView
+
+```
+...
+
+import { GestureHandlerRootView } from "react-native-gesture-handler";
+
+export default function App() {
+...
+
+ <GestureHandlerRootView style={{ flex: 1 }}>
+ ....
+ </GestureHandlerRootView>
+...
+
+
+}
+
+```
+
+- Passo 2: Instale o @gorhom/bottom-sheet e o importe onte você quer usar o modal
+
+```
+...
+import {
+  BottomSheetBackdrop,
+  BottomSheetBackdropProps,
+  BottomSheetModal,
+  BottomSheetModalProvider,
+} from "@gorhom/bottom-sheet";
+
+const Backdrop = (props: BottomSheetBackdropProps) => {
+  return <BottomSheetBackdrop {...props} disappearsOnIndex={-1} />;
+};
+
+...
+const snapPoints = useMemo(() => [550], []);
+return return (
+    <BottomSheetModalProvider>
+      <BottomSheetModal
+        onDismiss={()=>{}}
+        detached
+        handleIndicatorStyle={{estilo}}
+        style={{estilo}}
+        enableDismissOnClose
+        backdropComponent={Backdrop}
+        ref={ref}
+        index={0}
+        keyboardBlurBehavior="restore"
+        snapPoints={snapPoints}
+      >
+      
+      
+      
+       ...
+       
+       
+       
+      </BottomSheetModal>
+    </BottomSheetModalProvider>
+
+...
+
+```

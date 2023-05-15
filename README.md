@@ -835,3 +835,7 @@ return return (
 ...
 
 ```
+
+# Zod validação
+
+- <a href="https://zod.dev/">Zod doc`s</a>

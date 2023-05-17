@@ -4,7 +4,7 @@
 
 ## Installation
 
-      npx expo install expo-image-picker
+      npx expo install expo-image-picker e yarn add expo-image-picker
 
 Nas configurações coloque 
 

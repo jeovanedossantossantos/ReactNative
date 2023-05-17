@@ -201,6 +201,7 @@ No packege.json do projeto altere o main de "main":"index.js" para "main": "./sr
 
         expo start --tunnel # executa
         
+
 ### Instalando o @fortawesome
 
         yarn add react-native-svg @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-native-fontawesome
@@ -215,6 +216,11 @@ No packege.json do projeto altere o main de "main":"index.js" para "main": "./sr
 <a href="https://www.npmjs.com/package/@fortawesome/react-native-fontawesome#get-started">@fortawesome/react-native-fontawesome
 </a>
 
+### Instalndo no expo 
+
+      npx expo install react-native-svg
+      
+      
 ### Obs: caso aconteça o seguinte erro:
 
         Erro while updating property fill of a view managed by: RNSVGPath

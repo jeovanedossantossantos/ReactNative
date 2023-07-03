@@ -760,7 +760,10 @@ import Svg1 from "caminho_da_imagem/nome.svg";
 
 # Trabalhando com camera
 
-- <a href="https://docs.expo.dev/versions/latest/sdk/camera/">Expo Camera</a>
+- <a href="https://docs.expo.dev/versions/latest/sdk/camera/">expo-camera</a>
+- <a href="https://docs.expo.dev/tutorial/image-picker/">expo-image-picker</a>
+- <a href="https://docs.expo.dev/versions/latest/sdk/media-library/">expo-media-library</a>
+- <a href="https://docs.expo.dev/versions/latest/sdk/sharing/">expo-sharing</a>
 - <a href="https://github.com/chelseafarley/CameraAppTutorial/blob/main/App.js#L36">Github</a>
 - <a href="https://www.youtube.com/watch?v=4WPjWK0MYMI">Vídeo tutorial</a>
 
